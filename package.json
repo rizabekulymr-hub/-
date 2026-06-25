@@ -1,0 +1,18 @@
+{
+  "name": "alga-qadam-site",
+  "version": "1.0.0",
+  "description": "Алға қадам: private student support form that sends messages to one email.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "latest",
+    "express": "latest",
+    "nodemailer": "latest"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
